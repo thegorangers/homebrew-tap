@@ -3,7 +3,7 @@ cask "migraine" do
   name "migraine"
   desc "Database migration tool for PostgreSQL with change-set management and SQL linting"
   homepage "https://github.com/thegorangers/migraine"
-  version "0.0.1-beta.3"
+  version "0.0.1-beta.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "migraine" do
   on_macos do
     on_intel do
       url "https://github.com/thegorangers/migraine/releases/download/v#{version}/migraine_#{version}_darwin_amd64.tar.gz"
-      sha256 "770aa0daafbbb407b6673d994136071f129d6b6ea55cd2dbefb320d453fcddf8"
+      sha256 "646d3ee92634613b1bb2027b5d5efd5160aff12993005cab5289c9c2b0663421"
     end
     on_arm do
       url "https://github.com/thegorangers/migraine/releases/download/v#{version}/migraine_#{version}_darwin_arm64.tar.gz"
-      sha256 "5512d8f484fa538cb9c23def83b3ca243cbe63e8fffb09b3bd82ce657fd21c86"
+      sha256 "2f22c66d166c57ada450d1d6909d836c8ae48f89643b470da81c10c19ea0bc0a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/thegorangers/migraine/releases/download/v#{version}/migraine_#{version}_linux_amd64.tar.gz"
-      sha256 "428bd04b197faa6b3e11f632745a2e6fb6fda0ad4e15bd8c1909e246359fd7e1"
+      sha256 "119fd9e51b29ce8b2ce183551d5e3d2c6aedb48aeece56b5984cbfc27c018b40"
     end
     on_arm do
       url "https://github.com/thegorangers/migraine/releases/download/v#{version}/migraine_#{version}_linux_arm64.tar.gz"
-      sha256 "c29182524f366078e9e6eb7596041c83858d58d81c6c6b25a6a33545f9b557eb"
+      sha256 "23928c8675d03452484452249516ee451614affbafc072a3bad6ff9ef3f79096"
     end
   end
 

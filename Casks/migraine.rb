@@ -4,18 +4,18 @@ cask "migraine" do
 
   on_macos do
     on_intel do
-      sha256 "ac9f1ca7241101d2fce4228b09f83467dec1e46682be9df6d5bec6f8002fde01"
+      sha256 "7b5b6b3adc355ac012da850019d9cc0273e4e9c2141f3e0b287258eecb3b697f"
       url "https://github.com/thegorangers/migraine/releases/download/v#{version}/migraine_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "633bb743fd9b318c64121f5c8275f0d93fbd202770343abce9f770ed54df8060"
+      sha256 "8c90a8e6b84eb963eebb90be9ecb834b99700d274f8b3bfdc8e7896b2ff4400b"
       url "https://github.com/thegorangers/migraine/releases/download/v#{version}/migraine_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "4c31ceb6e71fc32f3cc5c3505f504f179051dd1c0bce49cf62b41dee707ff01c"
+      sha256 "d1182e0d767831d831f6c46109fca20a07a021f231d77aeb9ffcf77f96697a52"
       url "https://github.com/thegorangers/migraine/releases/download/v#{version}/migraine_#{version}_linux_amd64.tar.gz"
     end
   end
